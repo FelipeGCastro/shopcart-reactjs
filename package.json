@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server server.json -p 3333"
+    "server": "json-server server.json -p 2222"
   },
   "browserslist": {
     "production": [
@@ -53,5 +53,9 @@
     "extends": [
       "react-app"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/FelipeGCastro/shopcart-reactjs.git",
+  "author": "Luiz Felipe Castro <felipe1693@gmail.com>",
+  "license": "MIT"
 }
